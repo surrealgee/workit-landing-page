@@ -1,0 +1,47 @@
+/*** General ***/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Manrope, sans-serif;
+    margin: 0;
+    padding: 0;    
+}
+
+img {
+    width: 100%;
+}
+
+.btn {    
+    border: none;
+    cursor: pointer;
+    padding: .5em 1em;
+}
+
+.secondary {
+    background-color: transparent;
+    border-bottom: 3px solid #44FFA1;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;    
+    padding: .22em 0;
+}
+
+/*** Header ****/
+
+.header {
+    align-items: center;
+    background-color: #24053E;    
+    display: flex;    
+    justify-content: space-between;
+    padding: 2em 1em;    
+}
+
+.logo {
+    height: 25px;
+    width: 96px;
+    
+}
