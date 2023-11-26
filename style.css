@@ -103,9 +103,46 @@ img {
 }
 
 .feature-body {
-    color:  #584D62;
+    color: #584D62;
     text-align: center;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     line-height: 28px;
-   }
+}
+
+/* About */
+
+.about {
+    padding: 2em 0;
+}
+
+.founder-img {
+    display: block;
+    width: 281px;
+    height: 281px;
+    margin: 0 auto;
+    margin-bottom: -55px;
+    position: relative;
+    z-index: -1;
+}
+
+.about-content {
+    background-color: #24053E;
+    width: 95%;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    padding: 2em;
+}
+
+.content-title {
+    margin: 0;
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.content-body {
+    line-height: 28px;
+}
