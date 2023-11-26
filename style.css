@@ -1,13 +1,13 @@
-/*** General ***/
+/* General */
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: Manrope, sans-serif;
+    font-family: 'Manrope', sans-serif; 
     margin: 0;
-    padding: 0;    
+    padding: 0;   
 }
 
 img {
@@ -17,20 +17,26 @@ img {
 .btn {    
     border: none;
     cursor: pointer;
-    padding: .5em 1em;
+    padding: 0.75em 1.5em;
+    font-family: 'Manrope', sans-serif; 
+    font-size: 16px;
+    font-weight: 700;  
+    line-height: 32px;
+}
+
+.primary {
+    background: #44FFA1;
+    color: #24053E;
 }
 
 .secondary {
     background-color: transparent;
     border-bottom: 3px solid #44FFA1;
-    color: #FFF;
-    font-family: Manrope;
-    font-size: 16px;
-    font-weight: 700;    
+    color: #FFF;      
     padding: .22em 0;
 }
 
-/*** Header ****/
+/* Header */
 
 .header {
     align-items: center;
@@ -44,4 +50,25 @@ img {
     height: 25px;
     width: 96px;
     
+}
+
+/* Hero */
+
+.hero {
+    background-color: #24053E; 
+    color: #FFF;
+    text-align: center;
+    padding: 2em 1em;
+}
+
+.hero-title {
+    margin: 0;
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.hero .btn {
+    margin: 2.5em 0 4em;
 }
