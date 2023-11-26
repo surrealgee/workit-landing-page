@@ -146,3 +146,30 @@ img {
 .content-body {
     line-height: 28px;
 }
+
+/* Footer */
+
+.footer {
+    width: 115px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 5em auto;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-dark {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.icon {
+   width: 25px;
+}
+
+
